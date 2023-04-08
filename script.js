@@ -538,77 +538,121 @@ function f(){
 
 const team = [
   {
-    id:1,
-    name: "Saikat kar",
-    src: "https://drive.google.com/uc?export=view&id=132_-B4ybG8_8EyQ6N1zV5MsMFIBNh6va",
-    des: "design",
+    name: "SHATADRU SEN",
+    src: "https://drive.google.com/uc?export=view&id=1SjLrM_AGyC3CRa6sYmplXZ_7UAV5tLxG",
+    des: "President",
   },
   {
-    id:2,
-    name: "Saikat kar",
-    src: "https://drive.google.com/uc?export=view&id=132_-B4ybG8_8EyQ6N1zV5MsMFIBNh6va",
-    des: "design",
+    name: "ANKANA KUNDU",
+    src: "https://drive.google.com/uc?export=view&id=1ISirGkYvHpJyDZ_z5wtaLUx1QH8SaB_I",
+    des: " General Secretery",
   },
   {
-    id:2,
-    name: "Saikat kar",
-    src: "https://drive.google.com/uc?export=view&id=132_-B4ybG8_8EyQ6N1zV5MsMFIBNh6va",
-    des: "design",
+    name: "SAGNIK MAITRA",
+    src: "https://drive.google.com/uc?export=view&id=1IwYyqboPO060P6EZUE_y3up12mv330YK",
+    des: "Vice President",
   },
   {
-    id:2,
-    name: "Saikat kar",
-    src: "https://drive.google.com/uc?export=view&id=132_-B4ybG8_8EyQ6N1zV5MsMFIBNh6va",
-    des: "design",
+    name: "ARITRA TRIPATHY",
+    src: "https://drive.google.com/uc?export=view&id=1J-dzNTztD9RvEPTPuf7QxSudh_-M3obj",
+    des: "Joint Treasure",
   },
   {
-    id:2,
-    name: "Saikat kar",
-    src: "https://drive.google.com/uc?export=view&id=132_-B4ybG8_8EyQ6N1zV5MsMFIBNh6va",
-    des: "design",
+    name: "PRITAM PAYRA",
+    src: "https://drive.google.com/uc?export=view&id=1IsgTiGG50IRVIR8k-izgC8BbdFmFXO_z",
+    des: "Joint Treasure",
   },
   {
-    id:2,
-    name: "Saikat kar",
-    src: "https://drive.google.com/uc?export=view&id=132_-B4ybG8_8EyQ6N1zV5MsMFIBNh6va",
-    des: "design",
+    name: "SRIJIT DAS",
+    src: "https://drive.google.com/uc?export=view&id=1ICg2011_pW2GNPO1dH7ALAjTPuGLx46m",
+    des: "Sponsor Head",
   },
   {
-    id:2,
-    name: "Saikat kar",
-    src: "https://drive.google.com/uc?export=view&id=132_-B4ybG8_8EyQ6N1zV5MsMFIBNh6va",
-    des: "design",
+    name: "ANIRBAN SAMADDAR",
+    src: "https://drive.google.com/uc?export=view&id=1IjszvRGzXkqNlfEmXfizK7lE-w65AtcT",
+    des: "Sponsor Head",
   },
   {
-    id:2,
-    name: "Saikat kar",
-    src: "https://drive.google.com/uc?export=view&id=132_-B4ybG8_8EyQ6N1zV5MsMFIBNh6va",
-    des: "design",
+    name: "GODHULI SARKAR",
+    src: "https://drive.google.com/uc?export=view&id=1IFG4klnS8ZGFs4aOWde3S-jryW6OHksW",
+    des: "Sponsor Head",
   },
   {
-    id:2,
-    name: "Saikat kar",
-    src: "https://drive.google.com/uc?export=view&id=132_-B4ybG8_8EyQ6N1zV5MsMFIBNh6va",
-    des: "design",
+    name: "ABHISHEK SAHA",
+    src: "https://drive.google.com/uc?export=view&id=1J-8G0t2iuOTtUoxWTN0FKr00sJRnQDnZ",
+    des: "Event Head",
   },
   {
-    id:2,
-    name: "Saikat kar",
-    src: "https://drive.google.com/uc?export=view&id=132_-B4ybG8_8EyQ6N1zV5MsMFIBNh6va",
-    des: "design",
+    name: "ANUSHKA BHADRA",
+    src: "https://drive.google.com/uc?export=view&id=1Hx9KGND6pam5wrCvvy2WZdleFzajOnCS",
+    des: "Event Head",
   },
   {
-    id:2,
-    name: "Saikat kar",
-    src: "https://drive.google.com/uc?export=view&id=132_-B4ybG8_8EyQ6N1zV5MsMFIBNh6va",
-    des: "design",
+    name: "SAMRAT DEY",
+    src: "https://drive.google.com/uc?export=view&id=1HwPnUM12FQ7Wg-wQhMmVvt8anDrIWOXi",
+    des: "Event Head",
   },
   {
-    id:2,
-    name: "Saikat kar",
-    src: "https://drive.google.com/uc?export=view&id=132_-B4ybG8_8EyQ6N1zV5MsMFIBNh6va",
-    des: "design",
+    name: "SHAMBO GHOSH",
+    src: "https://drive.google.com/uc?export=view&id=1J2YrQtt1sfwNkCvvmB4nsWrfJCyaBCaD",
+    des: "Event Head",
   },
+  {
+    name: "SWATI SHAH",
+    src: "https://drive.google.com/uc?export=view&id=1J0sUqr46WZLeUsbfYXPE6vj50GZiCCaG",
+    des: "Event Head",
+  },
+  {
+    name: "SAHANA MONDAL",
+    src: "https://drive.google.com/uc?export=view&id=1I8bYnuyUhVLuWO7pk_LC9u_nbxw3OLPg",
+    des: "Student Coordinator",
+  },
+  {
+    name: "OWENDRILA SAHA",
+    src: "https://drive.google.com/uc?export=view&id=1IvoaRHbjaWAxq_zzmD3nPgZY0Dg3S-jY",
+    des: "Student Coordinator",
+  },
+  {
+    name: "SOUNAK SUTRADHAR",
+    src: "https://drive.google.com/uc?export=view&id=1IigvsPnXg1-jnDd9K9EX2odzZX06lukG",
+    des: "Design Head",
+  },
+  {
+    name: "SAIKAT KAR",
+    src: "https://drive.google.com/uc?export=view&id=1J26kDSnm2-Q6Yx3FMeR_86aBOyjxDPak",
+    des: "Design Head",
+  },
+  {
+    name: "SAYAN GHOSH",
+    src: "https://drive.google.com/uc?export=view&id=1Hzr9JpPuAz-Nc313MUXbePeDAmskWo9R",
+    des: "Design Head",
+  },
+  {
+    name: "SOUMIK DUTTA",
+    src: "https://drive.google.com/uc?export=view&id=1IxvfwcWzW7h5aU7p_N0mow8aM-p-4zvA",
+    des: "Design Head",
+  },
+  {
+    name: "SOUNAB GHOSH",
+    src: "https://drive.google.com/uc?export=view&id=1IX_HTfNAoQqxQpBSknfscLNha3JPQ61T",
+    des: "Design Head",
+  },
+  {
+    name: "BIKASH GUPTA",
+    src: "https://drive.google.com/uc?export=view&id=1I8AomKErh6L36ALHYoJR7NKROfIHVMAG",
+    des: "Admin",
+  },
+  {
+    name: "SHANGA MUKHERJEE",
+    src: "https://drive.google.com/uc?export=view&id=1J4MlWqeXZ1fKRi3-SI5oCTcXg3ACYUbq",
+    des: "PR Head",
+  },
+  {
+    name: "SUBHANSU MISHRA",
+    src: "https://drive.google.com/uc?export=view&id=1IJirQlqguAy0zc3ZP4COyPwA3ancbWh6",
+    des: "PR Head",
+  },
+
 ];
 
 console.log(team.length);
@@ -620,12 +664,12 @@ const teamList = document.querySelector(".memberSection");
   const showInHtml = team.map((m, i) => {
     return `
      <div class="card mx-3 my-2 teamCard" style="width: 9rem ;">
-          <img src="https://drive.google.com/uc?export=view&id=1-nbCnouDm5nbhp-LNEZ4Vu9ZT87mvoMK" class="card-img" alt="...">
+          <img src=${m.src} class="card-img" alt="...">
           <div class="card__overlay">
             <div class="card__description">
-              <span class="fw-semibold" style="color: white;font-family:Arial, Helvetica, sans-serif;">Subhansu kr. misra</span>
+              <span class="fw-semibold" style="color: white;font-family:Arial, Helvetica, sans-serif;">${m.name}</span>
               <br>
-              <span class="font-monospace fw-bold" style="color:aqua; font-size: 15px;">Coordinator Head</span>
+              <span class="font-monospace fw-bold" style="color:aqua; font-size: 15px;">${m.des}</span>
             </div>
           </div>
        </div>  
