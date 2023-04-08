@@ -1,4 +1,18 @@
 
+@font-face {
+	font-family: 'Lato-Black';
+	src: url('font\Lato-Black.ttf') format('ttf'),
+		 /* url('PATH_TO_FONT_FILE/Lato-Regular.woff') format('woff'); */
+   }
+@font-face {
+	font-family: 'Lato-Italic';
+	src: url('font\Lato-BoldItalic.ttf') format('ttf'),
+		 /* url('PATH_TO_FONT_FILE/Lato-Regular.woff') format('woff'); */
+}
+
+.date{
+	font-family:Lato-Italic ;
+}
 
 body {
 
@@ -7,13 +21,10 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
-
 	box-sizing: border-box;
-
-	font-family: serif;
+	font-family: Lato-Black,Lato-Italic;
+	/* //serif */
 	background-image: url("https://drive.google.com/uc?export=view&id=14DG9__M8eL46C28HUnLRgcSQKxe48MeS");
-	/* background-image: url("https://drive.google.com/uc?export=view&id=132ZEXOlhkq5BJpZWAZmrz_AY4P8OEBJo"); */
-	/* background-size:auto; */
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
@@ -21,6 +32,8 @@ body {
 	/* background-color: rgba(5, 0, 0, 0.8); */
 	/* backdrop-filter: blur(1px); */
 }
+
+
 
 #bg-video  {
 	/* background-position: center; */

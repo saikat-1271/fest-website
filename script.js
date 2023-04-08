@@ -42,7 +42,7 @@ setTimeout(function () {
                 */
 // Set the date we're counting down to
 var countdownDate = new Date(
-  "April 31, 2023 00:00:00"
+  "May 6, 2023 00:00:00"
 ).getTime(); /* hrs: min: sec */
 //var countdownDate = new Date("October 8, 2022 00:00:00").getTime();/* hrs: min: sec */
 
@@ -648,26 +648,20 @@ const team = [
     des: "PR Head",
   },
   {
-    name: "SUBHANSU MISHRA",
+    name: "SHUBHANSHU MISHRA",
     src: "https://drive.google.com/uc?export=view&id=1IJirQlqguAy0zc3ZP4COyPwA3ancbWh6",
     des: "PR Head",
   },
 
 ];
-
-console.log(team.length);
-
 const teamList = document.querySelector(".memberSection");
-
-
-
   const showInHtml = team.map((m, i) => {
     return `
      <div class="card mx-3 my-2 teamCard" style="width: 9rem ;">
           <img src=${m.src} class="card-img" alt="...">
           <div class="card__overlay">
             <div class="card__description">
-              <span class="fw-semibold" style="color: white;font-family:Arial, Helvetica, sans-serif;">${m.name}</span>
+              <span class="fw-semibold" style="color: white;font-family:Lato-Italic;">${m.name}</span>
               <br>
               <span class="font-monospace fw-bold" style="color:aqua; font-size: 15px;">${m.des}</span>
             </div>
@@ -675,7 +669,100 @@ const teamList = document.querySelector(".memberSection");
        </div>  
         `;
   });
-
   teamList.innerHTML = showInHtml.join('');
+
+  const co2=[
+    {
+      name:"Debjyoti Dutta"
+    },
+    {
+      name:"Sulagna Karmakar"
+    },
+    {
+      name:"Debayan Biswas"
+    },
+    {
+      name:"Sushil Kumar"
+    },
+    {
+      name:"Oishee Deb"
+    },
+    {
+      name:"Akash Halder"
+    },
+    {
+      name:"Shatoparna Bhattacharya"
+    },
+    {
+      name:"Ayush Chatterjee"
+    },
+    {
+      name:"Anika Parveen"
+    },
+  ]
+  const co1=[
+    {
+      name:"Kalyan Rana"
+    },
+    {
+      name:" Rimpi Saha"
+    },
+    {
+      name:"Anirban Paul"
+    },
+    {
+      name:"Subrata Kundu"
+    },
+    {
+      name:"Saikat Saha"
+    },
+    {
+      name:"Pratap Kar"
+    },
+    {
+      name:"Anshuman Kumar"
+    },
+    {
+      name:"Siddharth Jha"
+    },
+    {
+      name:"Divyangshu Pandey"
+    },
+  ]
+  const coLeft= document.querySelector(".left");
+  const coRight= document.querySelector(".right");
+  const coHtml1= co1.map((m,i)=>{
+    return ` <h5 class="fw-bolder">${m.name}</h5>`;
+  });
+  const coHtml2= co2.map((m,i)=>{
+    return ` <h5 class="fw-bolder">${m.name}</h5>`;
+  });
+  coLeft.innerHTML=coHtml1.join('');
+  coRight.innerHTML=coHtml2.join('');
+
+
+  // sponser logo section
+  // const sp1=[
+  //   {
+  //     src:""
+  //   }
+  // ]
+  // const sp1=[
+  //   {
+  //     src:""
+  //   }
+  // ]
+  // const spleft= document.querySelector(".leftSP");
+  // const spright= document.querySelector(".rightSP");
+
+  // const spHtml1= sp1.map((m,i)=>{
+  //   return ` <h5 class="fw-bolder"></h5>`;
+  // });  const spHtml2= sp2.map((m,i)=>{
+  //   return ` <h5 class="fw-bolder"></h5>`;
+  // });
+
+  // spleft.innerHTML=spHtml1.join('');
+  // spright.innerHTML=spHtml2.join('');
+
 }
 
