@@ -28,10 +28,13 @@ body {
 	/* background-image: url("pics/bg.jpeg"); */
 	background-image: url("pics/bg2.jpg");
 	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	-webkit-background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	background-size: cover;
-	background-color: #420075;
+	background-color: #000000;
 	color: rgba(255, 255, 255, 0.884);
 	/* background-color: rgba(5, 0, 0, 0.8); */
 	/* backdrop-filter: blur(1px); */
