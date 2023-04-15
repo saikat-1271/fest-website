@@ -527,129 +527,122 @@ $("a").click(function (e) {
 });
 
 
-
-
-
-
-
-
-function f(){
-
+function f () {
 
 const team = [
   {
     name: "SHATADRU SEN",
-    src: "https://drive.google.com/uc?export=view&id=1SjLrM_AGyC3CRa6sYmplXZ_7UAV5tLxG",
+    src: "pics/shatadru.jpg",
     des: "President",
   },
   {
     name: "ANKANA KUNDU",
-    src: "https://drive.google.com/uc?export=view&id=1ISirGkYvHpJyDZ_z5wtaLUx1QH8SaB_I",
+    src: "pics/ankana.jpg",
     des: " General Secretery",
   },
   {
     name: "SAGNIK MAITRA",
-    src: "https://drive.google.com/uc?export=view&id=1IwYyqboPO060P6EZUE_y3up12mv330YK",
+    src: "pics/sagnik.jpg",
     des: "Vice President",
   },
   {
     name: "ARITRA TRIPATHY",
-    src: "https://drive.google.com/uc?export=view&id=1J-dzNTztD9RvEPTPuf7QxSudh_-M3obj",
+    src: "pics/aritra.jpg",
     des: "Joint Treasure",
   },
   {
     name: "PRITAM PAYRA",
-    src: "https://drive.google.com/uc?export=view&id=1IsgTiGG50IRVIR8k-izgC8BbdFmFXO_z",
+    src: "pics/payra.jpg",
     des: "Joint Treasure",
   },
   {
     name: "SRIJIT DAS",
-    src: "https://drive.google.com/uc?export=view&id=1ICg2011_pW2GNPO1dH7ALAjTPuGLx46m",
+    src: "pics/srijit.jpg",
     des: "Sponsor Head",
   },
   {
     name: "ANIRBAN SAMADDAR",
-    src: "https://drive.google.com/uc?export=view&id=1IjszvRGzXkqNlfEmXfizK7lE-w65AtcT",
+    src: "pics/anirbn.jpg",
     des: "Sponsor Head",
   },
   {
     name: "GODHULI SARKAR",
-    src: "https://drive.google.com/uc?export=view&id=1IFG4klnS8ZGFs4aOWde3S-jryW6OHksW",
+    src: "pics/godhuli.jpg",
     des: "Sponsor Head",
   },
   {
     name: "ABHISHEK SAHA",
-    src: "https://drive.google.com/uc?export=view&id=1J-8G0t2iuOTtUoxWTN0FKr00sJRnQDnZ",
+    src: "pics/avisek.jpg",
     des: "Event Head",
   },
   {
     name: "ANUSHKA BHADRA",
-    src: "https://drive.google.com/uc?export=view&id=1Hx9KGND6pam5wrCvvy2WZdleFzajOnCS",
+    src: "pics/anuska.jpg",
     des: "Event Head",
   },
   {
     name: "SAMRAT DEY",
-    src: "https://drive.google.com/uc?export=view&id=1HwPnUM12FQ7Wg-wQhMmVvt8anDrIWOXi",
+    src: "pics/samrat.jpg",
     des: "Event Head",
   },
   {
     name: "SHAMBO GHOSH",
-    src: "https://drive.google.com/uc?export=view&id=1J2YrQtt1sfwNkCvvmB4nsWrfJCyaBCaD",
+    src: "pics/sambo.jpg",
     des: "Event Head",
   },
   {
     name: "SWATI SHAH",
-    src: "https://drive.google.com/uc?export=view&id=1J0sUqr46WZLeUsbfYXPE6vj50GZiCCaG",
+    src: "pics/swati.jpg",
     des: "Event Head",
   },
   {
     name: "SAHANA MONDAL",
-    src: "https://drive.google.com/uc?export=view&id=1I8bYnuyUhVLuWO7pk_LC9u_nbxw3OLPg",
+    src: "pics/sahana.jpg",
     des: "Student Coordinator",
   },
   {
     name: "OWENDRILA SAHA",
-    src: "https://drive.google.com/uc?export=view&id=1IvoaRHbjaWAxq_zzmD3nPgZY0Dg3S-jY",
+    src: "pics/owen.jpg",
     des: "Student Coordinator",
   },
   {
     name: "SOUNAK SUTRADHAR",
-    src: "https://drive.google.com/uc?export=view&id=1IigvsPnXg1-jnDd9K9EX2odzZX06lukG",
+    src: "pics/sounaK.jpg",
     des: "Design Head",
   },
   {
     name: "SAIKAT KAR",
-    src: "https://drive.google.com/uc?export=view&id=1J26kDSnm2-Q6Yx3FMeR_86aBOyjxDPak",
+    src: "pics/me.jpg",
     des: "Design Head",
   },
   {
     name: "SAYAN GHOSH",
-    src: "https://drive.google.com/uc?export=view&id=1Hzr9JpPuAz-Nc313MUXbePeDAmskWo9R",
+    src: "pics/sayan.jpg",
     des: "Design Head",
   },
   {
     name: "SOUMIK DUTTA",
-    src: "https://drive.google.com/uc?export=view&id=1IxvfwcWzW7h5aU7p_N0mow8aM-p-4zvA",
+    src: "pics/soumik.jpg",
     des: "Design Head",
   },
   {
     name: "SOUNAB GHOSH",
-    src: "https://drive.google.com/uc?export=view&id=1IX_HTfNAoQqxQpBSknfscLNha3JPQ61T",
+    src: "pics/sounab.jpg",
     des: "Design Head",
   },
   {
     name: "BIKASH GUPTA",
-    src: "https://drive.google.com/uc?export=view&id=1I8AomKErh6L36ALHYoJR7NKROfIHVMAG",
+    src: "pics/bikash.jpg",
     des: "Admin",
   },
   {
     name: "SHANGA MUKHERJEE",
-    src: "https://drive.google.com/uc?export=view&id=1J4MlWqeXZ1fKRi3-SI5oCTcXg3ACYUbq",
+    src: "pics/sanga.jpg",
     des: "PR Head",
   },
   {
     name: "SHUBHANSHU MISHRA",
-    src: "https://drive.google.com/uc?export=view&id=1IJirQlqguAy0zc3ZP4COyPwA3ancbWh6",
+    src: "pics/subhansu.jpg",
     des: "PR Head",
   },
 
@@ -657,7 +650,7 @@ const team = [
 const teamList = document.querySelector(".memberSection");
   const showInHtml = team.map((m, i) => {
     return `
-     <div class="card mx-3 my-2 teamCard" style="width: 9rem ;">
+     <div class="card mx-3 my-2 teamCard" style="width: 10rem ;">
           <img src=${m.src} class="card-img" alt="...">
           <div class="card__overlay">
             <div class="card__description">
@@ -765,4 +758,12 @@ const teamList = document.querySelector(".memberSection");
   // spright.innerHTML=spHtml2.join('');
 
 }
+
+
+function openPdf() {
+  var pdfUrl = "https://drive.google.com/file/d/1QB-jyNLZeVuZbUGrT5jJ-zfQR7LVPoBe/view?usp=sharing"; // Replace with the link to your PDF file
+  window.open(pdfUrl, '_blank');
+}
+
+
 
