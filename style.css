@@ -27,9 +27,11 @@ body {
 	/* background-image: url("https://drive.google.com/uc?export=view&id=14DG9__M8eL46C28HUnLRgcSQKxe48MeS"); */
 	/* background-image: url("pics/bg.jpeg"); */
 	background-image: url("pics/bg2.jpg");
+	-webkit-background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
+	background-color: #420075;
 	color: rgba(255, 255, 255, 0.884);
 	/* background-color: rgba(5, 0, 0, 0.8); */
 	/* backdrop-filter: blur(1px); */
@@ -447,6 +449,12 @@ h1 {
 
 @media (max-width: 1000px) {
 	/* Styles for screens smaller than 768px (e.g. mobile devices) */
+	/* body{
+		background-image: url("logos\mobilebg.png")!important;
+		background-position: center!important;
+		background-attachment: fixed!important;
+		background-size: cover!important;
+	} */
 	#banner {
 		font-size: calc(20px + 5vh)!important;
 		line-height: calc(20px + 7vh)!important;
