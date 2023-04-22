@@ -761,7 +761,7 @@ const teamList = document.querySelector(".memberSection");
 
 
 function openPdf() {
-  var pdfUrl = "https://drive.google.com/file/d/1QB-jyNLZeVuZbUGrT5jJ-zfQR7LVPoBe/view?usp=sharing"; // Replace with the link to your PDF file
+  var pdfUrl = "https://drive.google.com/file/d/1V01IFhHGmmtybKktiBC-eI9XhzykIa1k/view?usp=share_link"; // Replace with the link to your PDF file
   window.open(pdfUrl, '_blank');
 }
 
