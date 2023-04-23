@@ -548,12 +548,12 @@ const team = [
   {
     name: "ARITRA TRIPATHY",
     src: "pics/aritra.jpg",
-    des: "Joint Treasure",
+    des: "Joint Treasurer",
   },
   {
     name: "PRITAM PAYRA",
     src: "pics/payra.jpg",
-    des: "Joint Treasure",
+    des: "Joint Treasurer",
   },
   {
     name: "SRIJIT DAS",
