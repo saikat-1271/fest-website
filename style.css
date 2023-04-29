@@ -14,6 +14,12 @@
 	font-family: Lato-Italic;
 }
 
+.topbutton{
+	left: 92%;
+	 bottom: 29px;
+}
+
+
 body {
 
 	height: 100vh;
@@ -458,6 +464,11 @@ h1 {
 		background-attachment: fixed!important;
 		background-size: cover!important;
 	} */
+
+	.topbutton{
+		left: 82%!important;
+		bottom: 55px;
+	}
 	#banner {
 		font-size: calc(20px + 5vh)!important;
 		line-height: calc(20px + 7vh)!important;
